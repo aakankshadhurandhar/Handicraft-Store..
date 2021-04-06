@@ -31,7 +31,7 @@ const ProductScreen = ({ match }) => {
 
                        </ListGroup.Item>
                        <ListGroup.Item>
-                            Description:&#x20B9;{product.description}
+                            Description:{product.description}
 
 
                        </ListGroup.Item>

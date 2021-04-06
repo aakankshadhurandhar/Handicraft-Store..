@@ -1,0 +1,19 @@
+{
+  "name": "handicraft-store..",
+  "version": "1.0.0",
+  "description": "Backend for ecommerce site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakankshadhurandhar/Handicraft-Store...git"
+  },
+  "author": "Aakanksha Dhurandhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakankshadhurandhar/Handicraft-Store../issues"
+  },
+  "homepage": "https://github.com/aakankshadhurandhar/Handicraft-Store..#readme"
+}

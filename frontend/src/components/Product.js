@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Rating from './Rating';
-import PropTypes from 'prop-types';
+
 import { Link } from 'react-router-dom';
 
 
@@ -45,11 +45,6 @@ const Product = ({product}) => {
 }
 Rating.defaultProps={
     color:'#FBBF24'
-}
-Rating.PropTypes={
-      value:PropTypes.number.isRequired,
-      text:PropTypes.string.isRequired,
-      color:PropTypes.string,
 }
 
 
