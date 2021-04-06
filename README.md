@@ -1,2 +1,2 @@
-# Handicraft-Store..
- 
+# Handicraft-Stores
+
