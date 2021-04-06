@@ -4,7 +4,7 @@
   "description": "Backend for ecommerce site",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aakankshadhurandhar/Handicraft-Store../issues"
   },
-  "homepage": "https://github.com/aakankshadhurandhar/Handicraft-Store..#readme"
+  "homepage": "https://github.com/aakankshadhurandhar/Handicraft-Store..#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
