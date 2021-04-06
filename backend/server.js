@@ -1,6 +1,8 @@
 //create a express server
 //load express module 
 const express=require('express');
+//load database
+const products=require('./data/products');
 
 const app=express();
 //now enter port no on which server would come
@@ -21,6 +23,13 @@ app.get('/',(req,res)=>{
 
 })
 
+//get whole database in json
+
+app.get('/api/products',(req,res)=>{
+    res.json(products)
+
+
+})
 
 
 
